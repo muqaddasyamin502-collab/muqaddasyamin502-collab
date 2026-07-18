@@ -1,72 +1,144 @@
-
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1500 420" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1a0b2e"/>
-      <stop offset="45%" stop-color="#3d1a5e"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050014"/>
+      <stop offset="35%" stop-color="#120233"/>
+      <stop offset="65%" stop-color="#1a0a4d"/>
+      <stop offset="100%" stop-color="#050014"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c77dff"/>
-      <stop offset="100%" stop-color="#e0aaff"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#c77dff" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#c77dff" stop-opacity="0"/>
+
+    <radialGradient id="meshA" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.2"/>
+    <radialGradient id="meshB" cx="85%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="meshC" cx="50%" cy="90%" r="60%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <linearGradient id="glassFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <circle cx="960" cy="150" r="220" fill="url(#glow)"/>
+  <!-- Background -->
+  <rect width="1500" height="420" fill="url(#bgGrad)"/>
+  <rect width="1500" height="420" fill="url(#meshA)"/>
+  <rect width="1500" height="420" fill="url(#meshB)"/>
+  <rect width="1500" height="420" fill="url(#meshC)"/>
 
-  <!-- neural network motif, right side -->
-  <g stroke="#e0aaff" stroke-width="1.1" opacity="0.55">
-    <line x1="880" y1="70"  x2="960" y2="120"/>
-    <line x1="880" y1="150" x2="960" y2="120"/>
-    <line x1="880" y1="150" x2="960" y2="190"/>
-    <line x1="880" y1="230" x2="960" y2="190"/>
-    <line x1="960" y1="120" x2="1050" y2="90"/>
-    <line x1="960" y1="120" x2="1050" y2="150"/>
-    <line x1="960" y1="190" x2="1050" y2="150"/>
-    <line x1="960" y1="190" x2="1050" y2="220"/>
-    <line x1="1050" y1="90"  x2="1130" y2="130"/>
-    <line x1="1050" y1="150" x2="1130" y2="130"/>
-    <line x1="1050" y1="150" x2="1130" y2="190"/>
-    <line x1="1050" y1="220" x2="1130" y2="190"/>
-  </g>
-  <g fill="#c77dff">
-    <circle cx="880" cy="70"  r="4.5"/>
-    <circle cx="880" cy="150" r="4.5"/>
-    <circle cx="880" cy="230" r="4.5"/>
-    <circle cx="960" cy="120" r="6" fill="#e0aaff"/>
-    <circle cx="960" cy="190" r="6" fill="#e0aaff"/>
-    <circle cx="1050" cy="90"  r="5"/>
-    <circle cx="1050" cy="150" r="5"/>
-    <circle cx="1050" cy="220" r="5"/>
-    <circle cx="1130" cy="130" r="6.5" fill="#ffffff"/>
-    <circle cx="1130" cy="190" r="6.5" fill="#ffffff"/>
+  <!-- Neural network layer -->
+  <g stroke="#7C3AED" stroke-opacity="0.35" stroke-width="1">
+    <line x1="80" y1="90" x2="230" y2="150"><animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="80" y1="90" x2="230" y2="60"><animate attributeName="stroke-opacity" values="0.4;0.1;0.4" dur="5s" repeatCount="indefinite"/></line>
+    <line x1="230" y1="150" x2="380" y2="100"><animate attributeName="stroke-opacity" values="0.2;0.5;0.2" dur="3.5s" repeatCount="indefinite"/></line>
+    <line x1="230" y1="60" x2="380" y2="100"><animate attributeName="stroke-opacity" values="0.5;0.15;0.5" dur="4.5s" repeatCount="indefinite"/></line>
+    <line x1="1120" y1="320" x2="1270" y2="270"><animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="1270" y1="270" x2="1420" y2="330"><animate attributeName="stroke-opacity" values="0.4;0.1;0.4" dur="5.2s" repeatCount="indefinite"/></line>
+    <line x1="1120" y1="320" x2="1270" y2="360"><animate attributeName="stroke-opacity" values="0.5;0.2;0.5" dur="3.8s" repeatCount="indefinite"/></line>
+    <line x1="1270" y1="360" x2="1420" y2="330"><animate attributeName="stroke-opacity" values="0.2;0.5;0.2" dur="4.6s" repeatCount="indefinite"/></line>
   </g>
 
-  <!-- subtle corner accent -->
-  <path d="M0,320 L0,260 Q120,300 260,320 Z" fill="#c77dff" opacity="0.10"/>
+  <g fill="#A855F7">
+    <circle cx="80" cy="90" r="4"><animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="150" r="3.5" fill="#3B82F6"><animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="60" r="3.5" fill="#06B6D4"><animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="100" r="4" fill="#7C3AED"><animate attributeName="r" values="3;6;3" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="320" r="4"><animate attributeName="r" values="3;5;3" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1270" cy="270" r="3.5" fill="#3B82F6"><animate attributeName="r" values="3;5;3" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1270" cy="360" r="3.5" fill="#06B6D4"><animate attributeName="r" values="3;5;3" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1420" cy="330" r="4" fill="#7C3AED"><animate attributeName="r" values="3;6;3" dur="4.1s" repeatCount="indefinite"/></circle>
+  </g>
 
-  <!-- text -->
-  <text x="70" y="132" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">
+  <!-- Drifting particles -->
+  <g fill="#ffffff">
+    <circle cx="120" cy="330" r="1.6" opacity="0.6"><animate attributeName="cy" values="330;300;330" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="60" r="1.3" opacity="0.5"><animate attributeName="cy" values="60;40;60" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="380" r="1.8" opacity="0.55"><animate attributeName="cy" values="380;350;380" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1350" cy="80" r="1.4" opacity="0.5"><animate attributeName="cy" values="80;55;80" dur="6.4s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="330" r="1.5" opacity="0.4"><animate attributeName="cy" values="330;300;330" dur="5.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1450" cy="200" r="1.3" opacity="0.45"><animate attributeName="cx" values="1450;1420;1450" dur="6.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Circuit-style corner accents -->
+  <g stroke="#06B6D4" stroke-width="1.4" fill="none" opacity="0.5">
+    <path d="M 40 20 L 40 60 L 90 60 L 90 40 L 140 40">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1460 400 L 1460 360 L 1410 360 L 1410 380 L 1360 380">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Animated scan line -->
+  <rect x="0" y="0" width="1500" height="2" fill="url(#lineGrad)">
+    <animate attributeName="y" values="0;418;0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Glass card container -->
+  <rect x="290" y="95" width="920" height="230" rx="24" fill="url(#glassFill)" stroke="#A855F7" stroke-opacity="0.35" stroke-width="1.2"/>
+  <rect x="290" y="95" width="920" height="230" rx="24" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="0.6"/>
+
+  <!-- Floating AI icon chips -->
+  <g filter="url(#softGlow)" opacity="0.85">
+    <circle cx="335" cy="140" r="16" fill="none" stroke="#06B6D4" stroke-width="1.6">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1165" cy="150" r="14" fill="none" stroke="#A855F7" stroke-width="1.6">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 8; 0 0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M 1160 285 l 8 -14 l 8 14 z" fill="none" stroke="#3B82F6" stroke-width="1.6">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Name -->
+  <text x="750" y="200" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#textGrad)" filter="url(#glow)">
     Muqaddas Yamin
-  </text>
-  <text x="72" y="170" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="url(#accent)" letter-spacing="0.5">
-    AI Engineer in the making — CASPAM, BZU Multan
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
   </text>
 
-  <rect x="72" y="196" width="46" height="3" fill="#c77dff"/>
+  <!-- Title -->
+  <text x="750" y="245" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#E9E4FF" letter-spacing="2">
+    ARTIFICIAL INTELLIGENCE STUDENT
+  </text>
 
-  <text x="72" y="228" font-family="Helvetica, Arial, sans-serif" font-size="15.5" fill="#d8c4f0">
-    I build things that learn, listen, and talk back.
+  <!-- Tagline -->
+  <text x="750" y="285" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#B9AEEA">
+    Building Intelligent AI Applications with Python
   </text>
-  <text x="72" y="252" font-family="Helvetica, Arial, sans-serif" font-size="15.5" fill="#d8c4f0">
-    Groq · Node.js · LLM pipelines · freelance dev on the side.
-  </text>
+
+  <!-- Underline accent -->
+  <rect x="620" y="300" width="260" height="3" rx="1.5" fill="url(#lineGrad)">
+    <animate attributeName="width" values="0;260;260" dur="2.4s" fill="freeze"/>
+  </rect>
 </svg>
