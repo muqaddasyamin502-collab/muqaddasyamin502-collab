@@ -9,6 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-6C3483?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muqaddas-yamin-ai-student)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-6C3483?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/itz._.muqaddas._.rajpoot/)
 [![Gmail](https://img.shields.io/badge/Email-Contact-6C3483?style=flat-square&logo=gmail&logoColor=white)](mailto:muqaddasyamin502@gmail.com)
+[![Followers](https://img.shields.io/github/followers/muqaddasyamin502-collab?style=flat-square&color=6C3483&label=Followers)](https://github.com/muqaddasyamin502-collab)
 
 </div>
 
@@ -22,6 +23,26 @@ I'm a third-semester **BS Artificial Intelligence** student at **CASPAM, Bahaudd
 - 🎓 Studying AI fundamentals, data structures, and applied mathematics at CASPAM, BZU Multan
 - 💼 Available for freelance work and AI/ML internships
 - 🌱 Deepening expertise in LLM application architecture, RAG systems, and data analysis tooling
+- ⚡ Fun fact: I ship fast — most of my projects go from idea to a working deployed demo within days
+
+<br/>
+
+## Education
+
+| Institution | Program | Status |
+|---|---|---|
+| Bahauddin Zakariya University (BZU), Multan — CASPAM | BS Artificial Intelligence | 3rd Semester, In Progress |
+
+<br/>
+
+## Experience
+
+**Freelance AI / Web Developer** — *Fiverr* · Ongoing
+- Deliver end-to-end chatbot integration and automation solutions for small businesses
+- Recent client project: built a full customer-support chat widget with a 40-product catalog for a retail business
+
+**Independent Projects** — *Personal / Academic* · Ongoing
+- Designed and deployed multiple production AI applications (chatbots, summarizers, study tools) using Groq API, Node.js, and Firebase
 
 <br/>
 
@@ -120,6 +141,12 @@ Customer support chat widget for a family crockery business, with Hinglish-capab
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muqaddasyamin502-collab&layout=compact&theme=radical&hide_border=true&title_color=9B59B6&text_color=c9d1d9&bg_color=0D1117" width="55%"/>
 
 </div>
+
+<br/>
+
+## Currently Learning
+
+`LLM Application Architecture` · `RAG Systems` · `Prompt Engineering` · `Advanced Excel & Data Analysis`
 
 <br/>
 
