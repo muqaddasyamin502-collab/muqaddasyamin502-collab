@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="nnBg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#150638"/>
+      <stop offset="100%" stop-color="#050014"/>
+    </radialGradient>
+    <linearGradient id="nnLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" fill="url(#nnBg)"/>
+
+  <!-- Layer x positions: 120, 400, 680, 960, 1080 -->
+  <g stroke="url(#nnLine)" stroke-width="1" opacity="0.5">
+    <!-- input -> hidden1 -->
+    <line x1="120" y1="60" x2="400" y2="50"><animate attributeName="opacity" values="0.15;0.6;0.15" dur="3s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="60" x2="400" y2="130"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="3.4s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="60" x2="400" y2="210"><animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="130" x2="400" y2="50"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="3.6s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="130" x2="400" y2="130"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.8s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="130" x2="400" y2="210"><animate attributeName="opacity" values="0.55;0.2;0.55" dur="3.9s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="200" x2="400" y2="50"><animate attributeName="opacity" values="0.2;0.55;0.2" dur="3.3s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="200" x2="400" y2="130"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.2s" repeatCount="indefinite"/></line>
+    <line x1="120" y1="200" x2="400" y2="210"><animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.1s" repeatCount="indefinite"/></line>
+
+    <!-- hidden1 -> hidden2 -->
+    <line x1="400" y1="50" x2="680" y2="90"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="3.5s" repeatCount="indefinite"/></line>
+    <line x1="400" y1="130" x2="680" y2="90"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.9s" repeatCount="indefinite"/></line>
+    <line x1="400" y1="130" x2="680" y2="170"><animate attributeName="opacity" values="0.55;0.2;0.55" dur="4.1s" repeatCount="indefinite"/></line>
+    <line x1="400" y1="210" x2="680" y2="170"><animate attributeName="opacity" values="0.2;0.55;0.2" dur="3.7s" repeatCount="indefinite"/></line>
+    <line x1="400" y1="210" x2="680" y2="90"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="3.2s" repeatCount="indefinite"/></line>
+
+    <!-- hidden2 -> output -->
+    <line x1="680" y1="90" x2="960" y2="130"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.4s" repeatCount="indefinite"/></line>
+    <line x1="680" y1="170" x2="960" y2="130"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.8s" repeatCount="indefinite"/></line>
+  </g>
+
+  <g>
+    <circle cx="120" cy="60" r="8" fill="#A855F7"/>
+    <circle cx="120" cy="130" r="8" fill="#7C3AED"/>
+    <circle cx="120" cy="200" r="8" fill="#A855F7"/>
+
+    <circle cx="400" cy="50" r="7" fill="#6D28D9"><animate attributeName="r" values="6;9;6" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="130" r="7" fill="#4F46E5"><animate attributeName="r" values="6;9;6" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="210" r="7" fill="#6D28D9"><animate attributeName="r" values="6;9;6" dur="3.4s" repeatCount="indefinite"/></circle>
+
+    <circle cx="680" cy="90" r="7" fill="#3B82F6"><animate attributeName="r" values="6;9;6" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="170" r="7" fill="#06B6D4"><animate attributeName="r" values="6;9;6" dur="2.8s" repeatCount="indefinite"/></circle>
+
+    <circle cx="960" cy="130" r="9" fill="#06B6D4"><animate attributeName="r" values="7;11;7" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="1080" y="135" font-family="'Segoe UI', sans-serif" font-size="16" fill="#B9AEEA">Output</text>
+</svg>

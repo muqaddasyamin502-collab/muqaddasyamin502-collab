@@ -1,0 +1,37 @@
+<svg viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="typeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="60" fill="none"/>
+
+  <g font-family="'Consolas', 'Courier New', monospace" font-size="26" font-weight="700" fill="url(#typeGrad)" text-anchor="middle">
+    <text x="450" y="38" opacity="0">
+      Artificial Intelligence Student
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.18;0.20" dur="15s" repeatCount="indefinite" begin="0s"/>
+    </text>
+    <text x="450" y="38" opacity="0">
+      Python Developer
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.18;0.20" dur="15s" repeatCount="indefinite" begin="3s"/>
+    </text>
+    <text x="450" y="38" opacity="0">
+      Building Intelligent AI Applications
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.18;0.20" dur="15s" repeatCount="indefinite" begin="6s"/>
+    </text>
+    <text x="450" y="38" opacity="0">
+      Machine Learning Enthusiast
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.18;0.20" dur="15s" repeatCount="indefinite" begin="9s"/>
+    </text>
+    <text x="450" y="38" opacity="0">
+      Always Learning • Always Building
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.18;0.20" dur="15s" repeatCount="indefinite" begin="12s"/>
+    </text>
+  </g>
+
+  <rect x="10" y="14" width="3" height="30" fill="#06B6D4">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

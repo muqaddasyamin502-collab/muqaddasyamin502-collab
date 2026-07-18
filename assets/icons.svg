@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="iconStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="160" fill="#050014"/>
+
+  <!-- 6 glass chips: AI, ML, NLP, LLM, Python, GenAI -->
+  <g font-family="'Segoe UI', sans-serif" font-weight="700" text-anchor="middle">
+    <!-- chip template repeated -->
+    <g>
+      <rect x="30" y="30" width="160" height="100" rx="18" fill="url(#chipGrad)" stroke="url(#iconStroke)" stroke-width="1.2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="110" cy="65" r="16" fill="none" stroke="#A855F7" stroke-width="2"/>
+      <circle cx="110" cy="65" r="4" fill="#A855F7"/>
+      <text x="110" y="110" font-size="15" fill="#E9E4FF">AI</text>
+    </g>
+
+    <g>
+      <rect x="215" y="30" width="160" height="100" rx="18" fill="url(#chipGrad)" stroke="url(#iconStroke)" stroke-width="1.2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.4s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M 275 55 l 20 0 l 0 20 l -20 0 z" fill="none" stroke="#7C3AED" stroke-width="2"/>
+      <circle cx="295" cy="55" r="3" fill="#06B6D4"/>
+      <text x="295" y="110" font-size="15" fill="#E9E4FF">ML</text>
+    </g>
+
+    <g>
+      <rect x="400" y="30" width="160" height="100" rx="18" fill="url(#chipGrad)" stroke="url(#iconStroke)" stroke-width="1.2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.8s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M 460 50 q 20 20 0 40" fill="none" stroke="#3B82F6" stroke-width="2"/>
+      <path d="M 480 50 q -20 20 0 40" fill="none" stroke="#06B6D4" stroke-width="2"/>
+      <text x="480" y="110" font-size="15" fill="#E9E4FF">NLP</text>
+    </g>
+
+    <g>
+      <rect x="585" y="30" width="160" height="100" rx="18" fill="url(#chipGrad)" stroke="url(#iconStroke)" stroke-width="1.2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="645" y="48" width="20" height="20" rx="4" fill="none" stroke="#A855F7" stroke-width="2" transform="rotate(45 655 58)"/>
+      <text x="665" y="110" font-size="15" fill="#E9E4FF">LLM</text>
+    </g>
+
+    <g>
+      <rect x="770" y="30" width="160" height="100" rx="18" fill="url(#chipGrad)" stroke="url(#iconStroke)" stroke-width="1.2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.6s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="843" cy="58" r="10" fill="none" stroke="#3B82F6" stroke-width="2"/>
+      <circle cx="857" cy="70" r="10" fill="none" stroke="#06B6D4" stroke-width="2"/>
+      <text x="850" y="110" font-size="15" fill="#E9E4FF">Python</text>
+    </g>
+
+    <g>
+      <rect x="955" y="30" width="160" height="100" rx="18" fill="url(#chipGrad)" stroke="url(#iconStroke)" stroke-width="1.2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.6s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M 1015 70 l 10 -20 l 10 20 z" fill="none" stroke="#A855F7" stroke-width="2"/>
+      <circle cx="1025" cy="55" r="3" fill="#06B6D4"/>
+      <text x="1025" y="110" font-size="15" fill="#E9E4FF">GenAI</text>
+    </g>
+  </g>
+</svg>
