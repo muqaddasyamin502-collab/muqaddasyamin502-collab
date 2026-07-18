@@ -66,7 +66,7 @@
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=muqaddasyamin502-collab&show_icons=true&theme=radical&hide_border=true&title_color=C77DFF&icon_color=C77DFF&text_color=ffffff&bg_color=0D1117" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=muqaddasyamin502-collab&theme=radical&hide_border=true&background=0D1117&ring=C77DFF&fire=C77DFF&currStreakLabel=C77DFF" width="49%"/>
+<img src="https://streak-stats.demolab.com?user=muqaddasyamin502-collab&theme=radical&hide_border=true&background=0D1117&ring=C77DFF&fire=C77DFF&currStreakLabel=C77DFF" width="49%"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muqaddasyamin502-collab&layout=compact&theme=radical&hide_border=true&title_color=C77DFF&text_color=ffffff&bg_color=0D1117" width="60%"/>
 
