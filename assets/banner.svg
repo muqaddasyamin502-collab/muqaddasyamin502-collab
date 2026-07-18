@@ -1,1 +1,72 @@
 
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0b2e"/>
+      <stop offset="45%" stop-color="#3d1a5e"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c77dff"/>
+      <stop offset="100%" stop-color="#e0aaff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c77dff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#c77dff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <circle cx="960" cy="150" r="220" fill="url(#glow)"/>
+
+  <!-- neural network motif, right side -->
+  <g stroke="#e0aaff" stroke-width="1.1" opacity="0.55">
+    <line x1="880" y1="70"  x2="960" y2="120"/>
+    <line x1="880" y1="150" x2="960" y2="120"/>
+    <line x1="880" y1="150" x2="960" y2="190"/>
+    <line x1="880" y1="230" x2="960" y2="190"/>
+    <line x1="960" y1="120" x2="1050" y2="90"/>
+    <line x1="960" y1="120" x2="1050" y2="150"/>
+    <line x1="960" y1="190" x2="1050" y2="150"/>
+    <line x1="960" y1="190" x2="1050" y2="220"/>
+    <line x1="1050" y1="90"  x2="1130" y2="130"/>
+    <line x1="1050" y1="150" x2="1130" y2="130"/>
+    <line x1="1050" y1="150" x2="1130" y2="190"/>
+    <line x1="1050" y1="220" x2="1130" y2="190"/>
+  </g>
+  <g fill="#c77dff">
+    <circle cx="880" cy="70"  r="4.5"/>
+    <circle cx="880" cy="150" r="4.5"/>
+    <circle cx="880" cy="230" r="4.5"/>
+    <circle cx="960" cy="120" r="6" fill="#e0aaff"/>
+    <circle cx="960" cy="190" r="6" fill="#e0aaff"/>
+    <circle cx="1050" cy="90"  r="5"/>
+    <circle cx="1050" cy="150" r="5"/>
+    <circle cx="1050" cy="220" r="5"/>
+    <circle cx="1130" cy="130" r="6.5" fill="#ffffff"/>
+    <circle cx="1130" cy="190" r="6.5" fill="#ffffff"/>
+  </g>
+
+  <!-- subtle corner accent -->
+  <path d="M0,320 L0,260 Q120,300 260,320 Z" fill="#c77dff" opacity="0.10"/>
+
+  <!-- text -->
+  <text x="70" y="132" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">
+    Muqaddas Yamin
+  </text>
+  <text x="72" y="170" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="url(#accent)" letter-spacing="0.5">
+    AI Engineer in the making — CASPAM, BZU Multan
+  </text>
+
+  <rect x="72" y="196" width="46" height="3" fill="#c77dff"/>
+
+  <text x="72" y="228" font-family="Helvetica, Arial, sans-serif" font-size="15.5" fill="#d8c4f0">
+    I build things that learn, listen, and talk back.
+  </text>
+  <text x="72" y="252" font-family="Helvetica, Arial, sans-serif" font-size="15.5" fill="#d8c4f0">
+    Groq · Node.js · LLM pipelines · freelance dev on the side.
+  </text>
+</svg>
