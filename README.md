@@ -1,122 +1,110 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C3483,100:9B59B6&height=200&section=header&text=Muqaddas%20Yamin&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20in%20Training%20%7C%20Full-Stack%20Builder%20%7C%20Freelance%20Developer&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C3483,50:9B59B6,100:C77DFF&height=220&section=header&text=Hey,%20I'm%20Muqaddas%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Turning%20Ideas%20Into%20AI-Powered%20Products&descAlignY=55&descSize=17" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1000&color=9B59B6&center=true&vCenter=true&width=650&lines=BS+Artificial+Intelligence+%40+BZU+Multan+(CASPAM);Building+LLM-powered+products+with+Groq+%26+Node.js;Freelance+Developer+on+Fiverr;Open+to+AI%2FML+Internships" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=9B59B6&center=true&vCenter=true&width=700&lines=BS+Artificial+Intelligence+%40+CASPAM%2C+BZU+Multan;I+build+LLM-powered+apps+with+Groq+%2B+Node.js;Freelance+Developer+%40+Fiverr;Currently%3A+Open+to+AI%2FML+Internships" alt="Typing SVG" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-6C3483?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muqaddas-yamin-ai-student)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-6C3483?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/itz._.muqaddas._.rajpoot/)
-[![Gmail](https://img.shields.io/badge/Email-Contact-6C3483?style=flat-square&logo=gmail&logoColor=white)](mailto:muqaddasyamin502@gmail.com)
-[![Followers](https://img.shields.io/github/followers/muqaddasyamin502-collab?style=flat-square&color=6C3483&label=Followers)](https://github.com/muqaddasyamin502-collab)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-6C3483?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muqaddas-yamin-ai-student)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-6C3483?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/itz._.muqaddas._.rajpoot/)
+[![Gmail](https://img.shields.io/badge/Email-Contact-6C3483?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muqaddasyamin502@gmail.com)
+
+<img src="https://komarev.com/ghpvc/?username=muqaddasyamin502-collab&label=Profile%20Views&color=9B59B6&style=for-the-badge" />
 
 </div>
 
 <br/>
 
-## About
+## 👩‍💻 About Me
 
-I'm a third-semester **BS Artificial Intelligence** student at **CASPAM, Bahauddin Zakariya University (BZU), Multan**, Pakistan. I design and ship end-to-end AI products — from LLM-backed chatbots and voice-summarization pipelines to full-stack web applications — and take on freelance development work through Fiverr.
+I'm a third-semester **BS Artificial Intelligence** student at **CASPAM, Bahauddin Zakariya University (BZU), Multan**, Pakistan, and a freelance developer who loves turning ideas into working, deployed products — fast.
 
-- 🔭 Currently building an **AI Voice/Audio Summarizer** (Groq Whisper for transcription, Llama 3.3 70B for summarization)
-- 🎓 Studying AI fundamentals, data structures, and applied mathematics at CASPAM, BZU Multan
-- 💼 Available for freelance work and AI/ML internships
-- 🌱 Deepening expertise in LLM application architecture, RAG systems, and data analysis tooling
-- ⚡ Fun fact: I ship fast — most of my projects go from idea to a working deployed demo within days
+```text
+const muqaddas = {
+    role: "AI/ML Student & Full-Stack Builder",
+    university: "Bahauddin Zakariya University (CASPAM)",
+    currentlyBuilding: "AI Voice/Audio Summarizer — Groq Whisper + Llama 3.3 70B",
+    freelance: "Fiverr — AI Chatbot Integration & Automation",
+    lookingFor: ["AI/ML Internships", "Freelance Collaborations"],
+    funFact: "Idea → deployed demo, usually within days ⚡"
+};
+```
 
 <br/>
 
-## Education
+## 🎓 Education
 
 | Institution | Program | Status |
-|---|---|---|
-| Bahauddin Zakariya University (BZU), Multan — CASPAM | BS Artificial Intelligence | 3rd Semester, In Progress |
+|:---|:---|:---:|
+| Bahauddin Zakariya University (BZU), Multan — CASPAM | BS Artificial Intelligence | 3rd Semester |
 
 <br/>
 
-## Experience
+## 💼 Experience
 
-**Freelance AI / Web Developer** — *Fiverr* · Ongoing
-- Deliver end-to-end chatbot integration and automation solutions for small businesses
-- Recent client project: built a full customer-support chat widget with a 40-product catalog for a retail business
+**Freelance AI / Web Developer** · *Fiverr*
+> Deliver chatbot integration, automation, and custom web solutions for small businesses. Recent client work includes a full Hinglish-capable customer-support chat widget with a 40-product catalog.
 
-**Independent Projects** — *Personal / Academic* · Ongoing
-- Designed and deployed multiple production AI applications (chatbots, summarizers, study tools) using Groq API, Node.js, and Firebase
+**Independent Developer** · *Personal & Academic Projects*
+> Designed, built, and deployed multiple production-grade AI applications — chatbots, summarizers, and study tools — using Groq API, Node.js, and Firebase.
 
 <br/>
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-**Languages & Core**
-<br/>
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+<img src="https://skillicons.dev/icons?i=js,nodejs,express,html,css,cpp,mysql,firebase,git,github,vercel&theme=dark" />
 
-**Backend & Platforms**
-<br/>
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+</div>
 
-**AI / Tools**
-<br/>
-![Groq](https://img.shields.io/badge/Groq_API-F55036?style=flat-square&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+<div align="center">
+
+![Groq](https://img.shields.io/badge/Groq_API-F55036?style=for-the-badge&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 </div>
 
 <br/>
 
-## Featured Projects
+## 🚀 Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🤖 AI Study Assistant — CASPAM-Bot**
-<br/>
+### 🤖 AI Study Assistant — CASPAM-Bot
 Study assistant chatbot for BZU students. Node.js/Express backend, Groq API (Llama 3.3 70B), Firebase (Firestore + Auth), and live BZU/HEC-biased web search via Brave Search API.
-<br/>
-[Live Demo →](https://ai-study-assistent-rbbv.onrender.com)
+
+**[🔗 Live Demo](https://ai-study-assistent-rbbv.onrender.com)**
 
 </td>
 <td width="50%" valign="top">
 
-**🧠 Neural Insight — Portfolio**
-<br/>
-Personal AI-branded portfolio featuring a simulated AI decision-making engine, built as a single-file HTML application with no external API dependency.
-<br/>
-[View Project →](https://muqaddasyamin502-collab.github.io/Neural-insight/)
+### 🧠 Neural Insight — Portfolio
+AI-branded personal portfolio featuring a simulated AI decision-making engine — built as a single-file HTML app with zero external API dependency.
+
+**[🔗 View Project](https://muqaddasyamin502-collab.github.io/Neural-insight/)**
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**🎙️ AI Voice/Audio Summarizer**
-<br/>
-Full-stack summarization tool using Groq's Whisper API for transcription and Llama 3.3 70B for summarization, with a dark-themed custom frontend.
-<br/>
-*In active development*
+### 🎙️ AI Voice/Audio Summarizer
+Full-stack summarization tool: Groq Whisper API for transcription, Llama 3.3 70B for summarization, dark-themed custom frontend.
+
+**🔧 In active development**
 
 </td>
 <td width="50%" valign="top">
 
-**🛍️ Friends Traders — Support Agent**
-<br/>
-Customer support chat widget for a family crockery business, with Hinglish-capable AI responses and a 40-product catalog. Built with Groq API and vanilla JS, deployed on Vercel.
-<br/>
-*Client project*
+### 🛍️ Friends Traders — Support Agent
+Customer-support chat widget for a family crockery business — Hinglish-capable AI, 40-product catalog, deployed on Vercel.
+
+**💼 Client project**
 
 </td>
 </tr>
@@ -124,14 +112,14 @@ Customer support chat widget for a family crockery business, with Hinglish-capab
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Current-6C3483?style=flat-square)](https://muqaddasyamin502-collab.github.io/Portfolio-/)
-[![Portfolio Archive](https://img.shields.io/badge/Portfolio-Archive-6C3483?style=flat-square)](https://muqaddasyamin502-collab.github.io/Portfolio-website-/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Current-6C3483?style=for-the-badge)](https://muqaddasyamin502-collab.github.io/Portfolio-/)
+[![Portfolio Archive](https://img.shields.io/badge/🗂️_Portfolio-Archive-6C3483?style=for-the-badge)](https://muqaddasyamin502-collab.github.io/Portfolio-website-/)
 
 </div>
 
 <br/>
 
-## GitHub Analytics
+## 📊 GitHub Analytics
 
 <div align="center">
 
@@ -142,18 +130,26 @@ Customer support chat widget for a family crockery business, with Hinglish-capab
 
 </div>
 
+> 💡 *If the cards above appear blank, the public stats service is temporarily rate-limited — they refresh automatically once it's back.*
+
 <br/>
 
-## Currently Learning
+## 🌱 Currently Learning
 
-`LLM Application Architecture` · `RAG Systems` · `Prompt Engineering` · `Advanced Excel & Data Analysis`
+`LLM Application Architecture` &nbsp;·&nbsp; `RAG Systems` &nbsp;·&nbsp; `Prompt Engineering` &nbsp;·&nbsp; `Advanced Excel & Data Analysis`
 
 <br/>
 
 <div align="center">
 
-*Open to freelance collaborations and AI/ML internship opportunities — feel free to reach out.*
+### 📫 Let's Connect
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:9B59B6,100:6C3483&height=120&section=footer" width="100%"/>
+**Open to freelance collaborations and AI/ML internship opportunities.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muqaddas-yamin-ai-student)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/itz._.muqaddas._.rajpoot/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muqaddasyamin502@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C77DFF,50:9B59B6,100:6C3483&height=140&section=footer" width="100%"/>
 
 </div>
