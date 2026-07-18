@@ -8,11 +8,11 @@
 
 <br/><br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=7C3AED&style=for-the-badge&label=PROFILE+VIEWS)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YOUR_GITHUB_USERNAME.YOUR_GITHUB_USERNAME&color=3B82F6)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Neural%20Insight-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+![Profile Views](https://komarev.com/ghpvc/?username=muqaddasyamin502-collab&color=7C3AED&style=for-the-badge&label=PROFILE+VIEWS)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=muqaddasyamin502-collab.muqaddasyamin502-collab&color=3B82F6)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Neural%20Insight-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muqaddas-yamin-ai-student )
 [![Fiverr](https://img.shields.io/badge/Fiverr-muqaddas__yamin-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/muqaddas_yamin)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muqaddasyamin502@gmail.com)
 
 </div>
 
@@ -239,20 +239,20 @@ A relational database project applying core SQL concepts.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=050014&title_color=A855F7&icon_color=06B6D4&text_color=E9E4FF" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical&hide_border=true&background=050014&stroke=7C3AED&ring=A855F7&fire=06B6D4&currStreakLabel=E9E4FF" width="49%" alt="GitHub Streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=muqaddasyamin502-collab&show_icons=true&theme=radical&hide_border=true&bg_color=050014&title_color=A855F7&icon_color=06B6D4&text_color=E9E4FF" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=muqaddasyamin502-collab&theme=radical&hide_border=true&background=050014&stroke=7C3AED&ring=A855F7&fire=06B6D4&currStreakLabel=E9E4FF" width="49%" alt="GitHub Streak"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=050014&title_color=A855F7&text_color=E9E4FF" width="49%" alt="Top Languages"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&bg_color=050014&color=06B6D4&line=A855F7&point=3B82F6&hide_border=true" width="49%" alt="Activity Graph"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muqaddasyamin502-collab&layout=compact&theme=radical&hide_border=true&bg_color=050014&title_color=A855F7&text_color=E9E4FF" width="49%" alt="Top Languages"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=muqaddasyamin502-collab&theme=react-dark&bg_color=050014&color=06B6D4&line=A855F7&point=3B82F6&hide_border=true" width="49%" alt="Activity Graph"/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" width="100%" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=muqaddasyamin502-collab&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" width="100%" alt="GitHub Trophies"/>
 
 </div>
 
 ### 🐍 Contribution Snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation"/>
+<img src="https://raw.githubusercontent.com/muqaddasyamin502-collab/muqaddasyamin502-collab/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation"/>
 </div>
 
 > 💡 The contribution snake requires a one-time GitHub Actions workflow (`Platane/snk`) added to this repository to generate `github-contribution-grid-snake-dark.svg` on the `output` branch.
