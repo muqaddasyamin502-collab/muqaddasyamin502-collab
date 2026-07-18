@@ -18,14 +18,13 @@ My favourite kind of project is the one where an idea turns into a chatbot, a su
 <td width="35%" valign="top">
 
 **Right now**
-&nbsp;
-🎓 3rd semester, CASPAM
-&nbsp;
-🛠️ Building a voice summarizer
-&nbsp;
-💼 Freelancing on Fiverr
-&nbsp;
-📬 Open to AI/ML internships
+
+|     |     |
+|:---:|:----|
+| 🎓 | 3rd semester, CASPAM |
+| 🛠️ | Building a voice summarizer |
+| 💼 | Freelancing on Fiverr |
+| 📬 | Open to AI/ML internships |
 
 </td>
 </tr>
@@ -35,12 +34,12 @@ My favourite kind of project is the one where an idea turns into a chatbot, a su
 
 ## How I got here
 
-```
-2023 — 2025   Intermediate (Pre-Medical), Multan
-2025          Started BS Artificial Intelligence — CASPAM, BZU Multan
-2025 — now    Freelancing on Fiverr · AI chatbot integration & automation
-2026          Building end-to-end LLM products: chatbots, summarizers, study tools
-```
+<table>
+<tr><td width="120" valign="top"><b>2023 – 2025</b></td><td>Intermediate (Pre-Medical), Multan</td></tr>
+<tr><td valign="top"><b>2025</b></td><td>Started BS Artificial Intelligence — CASPAM, BZU Multan</td></tr>
+<tr><td valign="top"><b>2025 – now</b></td><td>Freelancing on Fiverr — AI chatbot integration &amp; automation</td></tr>
+<tr><td valign="top"><b>2026</b></td><td>Building end-to-end LLM products: chatbots, summarizers, study tools</td></tr>
+</table>
 
 I didn't start out planning to build chatbots for a living — the pre-medical background is proof of that. What pulled me toward AI was realizing how fast an idea could become something real: a weekend of learning Groq's API turned into a live study assistant used by other students at my university. That feeling is why I keep building.
 
@@ -108,8 +107,12 @@ A real client project: a Hinglish-speaking support chatbot for a family crockery
 ## The numbers, if you're curious
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=muqaddasyamin502-collab&show_icons=true&hide_border=true&theme=radical&title_color=c77dff&icon_color=c77dff&text_color=c9d1d9&bg_color=1a0b2e" width="48%"/>
-<img src="https://streak-stats.demolab.com?user=muqaddasyamin502-collab&hide_border=true&background=1a0b2e&ring=c77dff&fire=c77dff&currStreakLabel=c77dff" width="48%"/>
+
+[![Followers](https://img.shields.io/github/followers/muqaddasyamin502-collab?style=for-the-badge&color=7c3aed&labelColor=1a0b2e&label=Followers)](https://github.com/muqaddasyamin502-collab?tab=followers)
+[![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/muqaddasyamin502-collab&label=Public%20Repos&query=public_repos&style=for-the-badge&color=7c3aed&labelColor=1a0b2e)](https://github.com/muqaddasyamin502-collab?tab=repositories)
+
+<sub><a href="https://github.com/muqaddasyamin502-collab?tab=repositories">→ browse all repositories</a></sub>
+
 </div>
 
 <br/>
