@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="../assets/banner.svg" width="100%" alt="Muqaddas Yamin — AI Engineer Banner"/>
+<img src="assets/banner.svg" width="100%" alt="Muqaddas Yamin — AI Engineer Banner"/>
 
 <br/>
 
-<img src="../assets/typing.svg" width="600" alt="Typing SVG"/>
+<img src="assets/typing.svg" width="600" alt="Typing SVG"/>
 
 <br/><br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=muqaddasyamin502-collab&color=7C3AED&style=for-the-badge&label=PROFILE+VIEWS)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=muqaddasyamin502-collab.muqaddasyamin502-collab&color=3B82F6)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Neural%20Insight-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muqaddas-yamin-ai-student )
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Neural%20Insight-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muqaddas-yamin-ai-student)
 [![Fiverr](https://img.shields.io/badge/Fiverr-muqaddas__yamin-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/muqaddas_yamin)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muqaddasyamin502@gmail.com)
 
 </div>
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 🧠 About Me
 
@@ -36,7 +36,7 @@ I enjoy designing intelligent systems and solving real-world problems through co
 
 I believe in **learning by building** — every concept I study turns into a hands-on project, from AI chat assistants to full-stack applications. My long-term goal is to grow into a skilled **AI Engineer**, building intelligent software that creates real-world impact.
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 🎓 Education
 
@@ -69,7 +69,7 @@ Computer Science
 </tr>
 </table>
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 🚀 Featured Projects
 
@@ -158,7 +158,7 @@ A relational database project applying core SQL concepts.
 </tr>
 </table>
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 🧩 Tech Stack
 
@@ -208,9 +208,9 @@ A relational database project applying core SQL concepts.
 ![Teamwork](https://img.shields.io/badge/Teamwork-06B6D4?style=flat-square)
 ![Continuous Learning](https://img.shields.io/badge/Continuous_Learning-A855F7?style=flat-square)
 
-<img src="../assets/neural-network.svg" width="100%" alt="Neural Network Visualization"/>
+<img src="assets/neural-network.svg" width="100%" alt="Neural Network Visualization"/>
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 📖 Currently Learning
 
@@ -227,13 +227,13 @@ A relational database project applying core SQL concepts.
 
 </div>
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 🎯 Career Objective
 
 > To grow as a skilled **AI Engineer**, applying strong foundations in machine learning, deep learning, and software development to design intelligent, reliable systems that solve real-world problems. I aim to keep learning continuously, contribute to impactful AI-driven projects, and build practical solutions that bridge research and real-world application.
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 📊 GitHub Analytics
 
@@ -257,13 +257,13 @@ A relational database project applying core SQL concepts.
 
 > 💡 The contribution snake requires a one-time GitHub Actions workflow (`Platane/snk`) added to this repository to generate `github-contribution-grid-snake-dark.svg` on the `output` branch.
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 <details>
 <summary><b>✨ AI Interests Snapshot (click to expand)</b></summary>
 <br/>
 
-<img src="../assets/icons.svg" width="100%" alt="AI Interest Icons"/>
+<img src="assets/icons.svg" width="100%" alt="AI Interest Icons"/>
 
 - 🧠 Artificial Intelligence & Machine Learning fundamentals
 - 🔥 Deep Learning architectures and training workflows
@@ -290,20 +290,20 @@ A relational database project applying core SQL concepts.
 
 </details>
 
-<img src="../assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ## 📬 Contact
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muqaddasyamin502-collab)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muqaddas-yamin-ai-student  )
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muqaddas-yamin-ai-student)
 [![Email](https://img.shields.io/badge/Email-Message_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muqaddasyamin502@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Neural_Insight-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://muqaddasyamin502-collab.github.io/Portfolio-/)
 
 </div>
 
-<img src="../assets/footer-wave.svg" width="100%" alt="footer"/>
+<img src="assets/footer-wave.svg" width="100%" alt="footer"/>
 
 <div align="center">
 
